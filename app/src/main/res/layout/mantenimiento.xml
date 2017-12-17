@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/lagomedio"
+              android:weightSum="6"
+              android:paddingBottom="15dp">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1.5"
+        android:background="@drawable/rounded_corner_lagoclaro"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="9dp"
+        android:layout_marginBottom="9dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aceite MOTOR"
+        android:id="@+id/TV111"
+        android:textSize="24dp"
+        android:textColor="@color/lagooscuro"
+        android:layout_marginLeft="3dp"
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:weightSum="6"
+        android:transitionGroup="false"
+        android:padding="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:weightSum="2"
+            android:layout_weight="4.5"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_gravity="left"
+            android:paddingTop="2dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:weightSum="1"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="Ult. Cambio"
+                    android:id="@+id/TV40"
+                    android:gravity="left"
+                    android:textSize="16dp"
+                    android:layout_weight="0.6"
+                    android:textColor="#807f7f"
+                    android:textIsSelectable="false"
+                    android:textStyle="bold|italic"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="24/10/2016"
+                    android:id="@+id/TV20"
+                    android:textSize="17dp"
+                    android:layout_weight="0.4"
+                    android:textAlignment="textEnd"
+                    android:textColor="@android:color/black"
+                    android:textStyle="normal|italic"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:weightSum="1"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="Kilometros"
+                    android:id="@+id/TV41"
+                    android:textSize="16dp"
+                    android:layout_weight="0.6"
+                    android:textColor="#807f7f"
+                    android:textIsSelectable="false"
+                    android:textStyle="bold|italic"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="0"
+                    android:id="@+id/TV21"
+                    android:textSize="16dp"
+                    android:textAlignment="textEnd"
+                    android:layout_weight="0.4"
+                    android:textColor="@android:color/black"
+                    android:textStyle="italic"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/BTN101"
+            android:background="@drawable/rounded_corner_verdeesperanza"
+            android:layout_weight="1.5"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:gravity="end"
+            android:layout_marginBottom="9dp"
+            android:layout_marginTop="9dp"/>
+    </LinearLayout>
+</LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1.5"
+        android:background="@drawable/rounded_corner_lagoclaro"
+        android:layout_margin="9dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aceite CAJA"
+            android:id="@+id/TV112"
+            android:textSize="24dp"
+            android:textColor="@color/lagooscuro"
+            android:layout_marginLeft="3dp"
+            />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:weightSum="6"
+            android:transitionGroup="false"
+            android:padding="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:weightSum="2"
+                android:layout_weight="4.5"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_gravity="left"
+                android:paddingTop="2dp">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:weightSum="1"
+                    android:layout_weight="1"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:text="Ult. Cambio"
+                        android:id="@+id/TV42"
+                        android:gravity="left"
+                        android:textSize="16dp"
+                        android:layout_weight="0.6"
+                        android:textColor="#807f7f"
+                        android:textIsSelectable="false"
+                        android:textStyle="bold|italic"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:text="24/10/2016"
+                        android:id="@+id/TV22"
+                        android:textSize="17dp"
+                        android:layout_weight="0.4"
+                        android:textAlignment="textEnd"
+                        android:textColor="@android:color/black"
+                        android:textStyle="normal|italic"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:weightSum="1"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:text="Kilometros"
+                        android:id="@+id/TV43"
+                        android:textSize="16dp"
+                        android:layout_weight="0.6"
+                        android:textColor="#807f7f"
+                        android:textIsSelectable="false"
+                        android:textStyle="bold|italic"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:text="0"
+                        android:id="@+id/TV23"
+                        android:textSize="16dp"
+                        android:textAlignment="textEnd"
+                        android:layout_weight="0.4"
+                        android:textColor="@android:color/black"
+                        android:textStyle="italic"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:id="@+id/BTN102"
+                android:background="@drawable/rounded_corner_verdeesperanza"
+                android:layout_weight="1.5"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:gravity="end"
+                android:layout_marginTop="9dp"
+                android:layout_marginBottom="9dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1.5"
+        android:layout_margin="9dp"
+        android:background="@drawable/rounded_corner_lagoclaro">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FRENOS"
+            android:id="@+id/TV113"
+            android:textSize="24dp"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="3dp"
+            />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:weightSum="6"
+            android:transitionGroup="false"
+            android:padding="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:weightSum="2"
+                android:layout_weight="4.5"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_gravity="left"
+                android:paddingTop="2dp">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:weightSum="1"
+                    android:layout_weight="1"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:text="Ult. Cambio"
+                        android:id="@+id/TV44"
+                        android:gravity="left"
+                        android:textSize="16dp"
+                        android:layout_weight="0.6"
+                        android:textColor="#807f7f"
+                        android:textIsSelectable="false"
+                        android:textStyle="bold|italic"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:text="24/10/2016"
+                        android:id="@+id/TV24"
+                        android:textSize="17dp"
+                        android:layout_weight="0.4"
+                        android:textAlignment="textEnd"
+                        android:textColor="@android:color/black"
+                        android:textStyle="normal|italic"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:weightSum="1"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:text="Kilometros"
+                        android:id="@+id/TV45"
+                        android:textSize="16dp"
+                        android:layout_weight="0.6"
+                        android:textColor="#807f7f"
+                        android:textIsSelectable="false"
+                        android:textStyle="bold|italic"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:text="0"
+                        android:id="@+id/TV25"
+                        android:textSize="16dp"
+                        android:textAlignment="textEnd"
+                        android:layout_weight="0.4"
+                        android:textColor="@android:color/black"
+                        android:textStyle="italic"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:id="@+id/BTN103"
+                android:background="@drawable/rounded_corner_verdeesperanza"
+                android:layout_weight="1.5"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:gravity="end"
+                android:layout_marginTop="9dp"
+                android:layout_marginBottom="9dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1.5"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginRight="9dp"
+        android:layout_marginBottom="18dp"
+        android:background="@drawable/rounded_corner_lagoclaro">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Inspeccion GNV"
+            android:id="@+id/TV114"
+            android:textSize="24dp"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="3dp"
+            />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:weightSum="6"
+            android:transitionGroup="false"
+            android:padding="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:longClickable="true">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:weightSum="2"
+                android:layout_weight="4.5"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_gravity="left|center"
+                android:paddingTop="2dp"
+                android:gravity="center_vertical">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="1"
+                    android:layout_gravity="center"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ult. Revision"
+                        android:id="@+id/TV46"
+                        android:gravity="left"
+                        android:textSize="16dp"
+                        android:textColor="#807f7f"
+                        android:textIsSelectable="false"
+                        android:textStyle="bold|italic"
+                        android:textAlignment="textStart"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="24/10/2016"
+                        android:id="@+id/TV26"
+                        android:textSize="17dp"
+                        android:textAlignment="textEnd"
+                        android:textColor="@android:color/black"
+                        android:layout_gravity="right"
+                        android:layout_weight="1"
+                        android:textStyle="normal|italic"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:id="@+id/BTN104"
+                android:background="@drawable/rounded_corner_verdeesperanza"
+                android:layout_weight="1.5"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:gravity="end"
+                android:layout_marginTop="9dp"
+                android:layout_marginBottom="9dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

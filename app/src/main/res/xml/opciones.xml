@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+        <ListPreference
+            android:key="@string/PropiedadTipoMapa"
+            android:title="Presentacion Mapa"
+            android:summary=""
+            android:dialogTitle="Elige un tipo de mapa"
+            android:entries="@array/TipoMapa"
+            android:defaultValue="a"
+            android:entryValues="@array/codigo" />
+    <Preference android:title="Ubicaciones CONTROLADAS"
+    android:key="carioca"
+    android:summary="Introducir Coordenadas"/>
+</PreferenceScreen>

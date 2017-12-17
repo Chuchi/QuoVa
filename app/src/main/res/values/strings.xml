@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">QuoVadis Domine</string>
+    <string name="title_activity_maps">QuoVadis Domine</string>
+
+    <string name="PropiedadSocio">IdPropieta</string>
+    <string name="PropiedadLinea">IdLinea</string>
+    <string name="PropiedadVersion">Version</string>
+    <string name="PropiedadLatitudHito1">LatitudHito1</string>
+    <string name="PropiedadLonguitudHito1">LonguitudHito1</string>
+    <string name="PropiedadLatitudHito2">LatitudHito2</string>
+    <string name="PropiedadLonguitudHito2">LonguitudHito2</string>
+    <string name="PropiedadLatitudHito3">LatitudHito3</string>
+    <string name="PropiedadLonguitudHito3">LonguitudHito3</string>
+    <string name="PropiedadRadioEnMetrosHito1">RadioEnMetrosHito1</string>
+    <string name="PropiedadRadioEnMetrosHito2">RadioEnMetrosHito2</string>
+    <string name="PropiedadRadioEnMetrosHito3">RadioEnMetrosHito3</string>
+    <string name="PropiedadNombreUbicacion1">NombreUbicacion1</string>
+    <string name="PropiedadNombreUbicacion2">NombreUbicacion2</string>
+    <string name="PropiedadNombreUbicacion3">NombreUbicacion3</string>
+    <string name="PropiedadFechaCambioAceiteMotor">FechaCambioAceiteMotor</string>
+    <string name="PropiedadFechaCambioAceiteCaja">FechaCambioAceiteCaja</string>
+    <string name="PropiedadFechaCambioFrenos">FechaCambioFrenos</string>
+    <string name="PropiedadFechaInspeccionGNV">PropiedadFechaInspeccionGNV</string>
+
+
+
+    <string name="PropiedadTiempoDescansoNotificaciones1">TiempoDescansoNotificaciones1</string>
+    <string name="PropiedadTiempoDescansoNotificaciones2">TiempoDescansoNotificaciones2</string>
+    <string name="PropiedadTipoMapa">TipoMapa</string>
+    <string name="myCoolButton">botine</string>
+    <string name="myNiceButton">carioca</string>
+    <string name="myNiceButton2">carioco</string>
+
+    <string name="URL">http://sareta.somee.com/MicroMundoGPS/Galileo.asmx</string>
+    <string name="NAMESPACE">Tormenta</string>
+    <string name="title_activity_areta">Areta</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="Positivo">SI</string>
+    <string name="Negativo">NO</string>
+
+</resources>

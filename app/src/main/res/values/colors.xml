@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3855f3</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#f60758</color>
+    <color name="Wierdecito">#5b30ca05</color>
+    <color name="lagomedio">#59a79c</color>
+    <color name="lagoclaro">#cffdfa</color>
+    <color name="lagooscuro">#264843</color>
+    <color name="lagoNoche">#060000</color>
+    <color name="azuloscuro">#010145</color>
+    <color name="GrisMedio">#605f5f</color>
+
+</resources>

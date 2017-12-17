@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context="arriba.buscame.quovadis.IntroHito"
+              android:background="#d2fdde"
+              android:orientation="vertical"
+              android:weightSum="5">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ubicaciones  CONTROLADAS"
+        android:id="@+id/TV35"
+        android:textSize="30sp"
+        android:textStyle="normal|bold"
+        android:textColor="#012401"
+        android:typeface="monospace"
+        android:layout_weight="1"
+        android:layout_marginLeft="7dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Al oprimir el boton, la ubicacion actual sera guardada como ubicacion CONTROLADA.  Al ingresar en la misma, se activara la emision de notificaciones "
+        android:id="@+id/TV33"
+        android:layout_weight="0.2"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp">
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:id="@+id/ET10"
+            android:text="Ubicacion 1"
+            android:layout_marginEnd="30dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#838282"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="OK"
+            android:id="@+id/BTN10"
+            android:layout_weight="0.2"
+            android:background="@drawable/rounded_corner_verde"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="10dp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp">
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:id="@+id/ET11"
+            android:text="Ubicacion 2"
+            android:layout_marginEnd="30dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#838282"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="OK"
+            android:id="@+id/BTN11"
+            android:layout_weight="0.2"
+            android:background="@drawable/rounded_corner_verde"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp">
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:id="@+id/ET12"
+            android:text="Ubicacion 3"
+            android:layout_marginEnd="30dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#838282"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="OK"
+            android:id="@+id/BTN12"
+            android:layout_weight="0.2"
+            android:background="@drawable/rounded_corner_verde"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="10dp"/>
+    </LinearLayout>
+
+</LinearLayout>

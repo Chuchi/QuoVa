@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="arriba.buscame.quovadis.Alabanza"
+    android:padding="0dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:background="@color/lagomedio"
+        android:weightSum="9"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:weightSum="5"
+            android:padding="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/rounded_corner_lagoclaro"
+            android:layout_weight="4">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:text="Informe DIARIO"
+                android:id="@+id/TV500"
+                android:gravity="start"
+                android:textSize="25dp"
+                android:layout_weight="1"
+                android:layout_gravity="top"
+                android:textColor="@color/lagooscuro"
+                android:layout_marginLeft="10dp"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:weightSum="2"
+                android:layout_weight="1"
+                android:layout_gravity="bottom">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Kilometraje"
+                    android:id="@+id/TV50"
+                    android:textSize="18dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginLeft="40dp"
+                    android:textColor="@color/GrisMedio"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/TV51"
+                    android:textSize="19dp"
+                    android:layout_weight="0.7"
+                    android:textStyle="bold"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:textColor="@color/lagoNoche"
+                    android:textAlignment="viewEnd"
+                    android:textIsSelectable="true"
+                    android:layout_marginRight="12dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:weightSum="2"
+                android:layout_weight="1"
+                android:layout_gravity="bottom">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Vueltas"
+                    android:id="@+id/TV52"
+                    android:textSize="18dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginLeft="40dp"
+                    android:textColor="@color/GrisMedio"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/TV53"
+                    android:textSize="18dp"
+                    android:layout_weight="0.7"
+                    android:textStyle="bold"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:textColor="@color/lagoNoche"
+                    android:textAlignment="viewEnd"
+                    android:textIsSelectable="true"
+                    android:layout_marginRight="12dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:weightSum="2"
+                android:layout_weight="1"
+                android:layout_gravity="bottom">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Inicio Jornada"
+                    android:id="@+id/TV54"
+                    android:textSize="18dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginLeft="40dp"
+                    android:textColor="@color/GrisMedio"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/TV55"
+                    android:textSize="18dp"
+                    android:layout_weight="0.7"
+                    android:textStyle="bold"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:textColor="@color/lagoNoche"
+                    android:textAlignment="viewEnd"
+                    android:textIsSelectable="true"
+                    android:layout_marginRight="12dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:weightSum="2"
+                android:layout_weight="1"
+                android:layout_gravity="bottom">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Vel. Max."
+                    android:id="@+id/TV56"
+                    android:textSize="18dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginLeft="40dp"
+                    android:textColor="@color/GrisMedio"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/TV57"
+                    android:textSize="18dp"
+                    android:layout_weight="0.7"
+                    android:textStyle="bold"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:textColor="@color/lagoNoche"
+                    android:textAlignment="viewEnd"
+                    android:textIsSelectable="true"
+                    android:layout_marginRight="12dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:weightSum="3"
+            android:padding="3dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/rounded_corner_azullago"
+            android:layout_weight="2.5">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:text="Informe MENSUAL"
+                android:id="@+id/TV600"
+                android:gravity="start"
+                android:textSize="25dp"
+                android:layout_weight="1"
+                android:layout_gravity="top"
+                android:textColor="@color/lagooscuro"
+                android:layout_marginLeft="10dp"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:weightSum="2"
+                android:layout_weight="1"
+                android:layout_gravity="bottom">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Kilometraje"
+                    android:id="@+id/TV60"
+                    android:textSize="18dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginLeft="40dp"
+                    android:textColor="@color/GrisMedio"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/TV61"
+                    android:textSize="19dp"
+                    android:layout_weight="0.7"
+                    android:textStyle="bold"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:textColor="@color/lagoNoche"
+                    android:textAlignment="viewEnd"
+                    android:textIsSelectable="true"
+                    android:layout_marginRight="12dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:weightSum="2"
+                android:layout_weight="1"
+                android:layout_gravity="bottom">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Vueltas"
+                    android:id="@+id/TV62"
+                    android:textSize="18dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginLeft="40dp"
+                    android:textColor="@color/GrisMedio"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/TV63"
+                    android:textSize="18dp"
+                    android:layout_weight="0.7"
+                    android:textStyle="bold"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:textColor="@color/lagoNoche"
+                    android:textAlignment="viewEnd"
+                    android:textIsSelectable="true"
+                    android:layout_marginRight="12dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:weightSum="3"
+            android:padding="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/rounded_corner_azullago"
+            android:layout_weight="2.5">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:text="Informe ACUMULADO"
+                android:id="@+id/TV700"
+                android:gravity="start"
+                android:textSize="25dp"
+                android:layout_weight="1"
+                android:layout_gravity="top"
+                android:textColor="@color/lagooscuro"
+                android:layout_marginLeft="10dp"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:weightSum="2"
+                android:layout_weight="0.9"
+                android:layout_gravity="bottom">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Kilometraje"
+                    android:id="@+id/TV70"
+                    android:textSize="18dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginLeft="40dp"
+                    android:textColor="@color/GrisMedio"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/TV71"
+                    android:textSize="19dp"
+                    android:layout_weight="0.7"
+                    android:textStyle="bold"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:textColor="@color/lagoNoche"
+                    android:textAlignment="viewEnd"
+                    android:textIsSelectable="true"
+                    android:layout_marginRight="12dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:weightSum="2"
+                android:layout_weight="0.9"
+                android:layout_gravity="bottom">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Vueltas"
+                    android:id="@+id/TV72"
+                    android:textSize="18dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginLeft="40dp"
+                    android:textColor="@color/GrisMedio"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/TV73"
+                    android:textSize="18dp"
+                    android:layout_weight="0.7"
+                    android:textStyle="bold"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:textColor="@color/lagoNoche"
+                    android:textAlignment="viewEnd"
+                    android:textIsSelectable="true"
+                    android:layout_marginRight="12dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

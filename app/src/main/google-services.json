@@ -1,0 +1,192 @@
+{
+  "project_info": {
+    "project_number": "139765676938",
+    "firebase_url": "https://esperanza-b7d6f.firebaseio.com",
+    "project_id": "esperanza-b7d6f",
+    "storage_bucket": "esperanza-b7d6f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:139765676938:android:3581e0d95ef85c53",
+        "android_client_info": {
+          "package_name": "nieves.buscame.buscare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "139765676938-8k0qclild3u3s5hv7rh6g3mk4egnt34n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "nieves.buscame.buscare",
+            "certificate_hash": "64A1117A6100CD243DD3A26C055D348836587F3F"
+          }
+        },
+        {
+          "client_id": "139765676938-6606vvi0h27lkmsc6j97rr0jqdt7d5ab.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6FCaiKsNumd0vgZ_9N6Q8FAdnr334Kwk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "139765676938-6606vvi0h27lkmsc6j97rr0jqdt7d5ab.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:139765676938:android:cf10a98ccff79d01",
+        "android_client_info": {
+          "package_name": "nieves.buscame.notifame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "139765676938-6606vvi0h27lkmsc6j97rr0jqdt7d5ab.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6FCaiKsNumd0vgZ_9N6Q8FAdnr334Kwk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:139765676938:android:f5e21424c2677b7c",
+        "android_client_info": {
+          "package_name": "nieves.buscame.teveo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "139765676938-hl78tiop8f7pv4of49hdh47tnpkvk8o6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "nieves.buscame.teveo",
+            "certificate_hash": "64A1117A6100CD243DD3A26C055D348836587F3F"
+          }
+        },
+        {
+          "client_id": "139765676938-6606vvi0h27lkmsc6j97rr0jqdt7d5ab.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6FCaiKsNumd0vgZ_9N6Q8FAdnr334Kwk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "139765676938-6606vvi0h27lkmsc6j97rr0jqdt7d5ab.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:139765676938:android:a2a5ad5ab50bcaf3",
+        "android_client_info": {
+          "package_name": "arriba.buscame.petra"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "139765676938-6606vvi0h27lkmsc6j97rr0jqdt7d5ab.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6FCaiKsNumd0vgZ_9N6Q8FAdnr334Kwk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:139765676938:android:c45a50a000efb42c",
+        "android_client_info": {
+          "package_name": "arriba.buscame.quovadis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "139765676938-6606vvi0h27lkmsc6j97rr0jqdt7d5ab.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6FCaiKsNumd0vgZ_9N6Q8FAdnr334Kwk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

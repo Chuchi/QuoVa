@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical"
+              android:focusableInTouchMode="true"
+              android:padding="5dp">
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:weightSum="2">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:weightSum="3">
+
+        <TextView
+            android:id="@+id/TVX2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|left|center_horizontal"
+            android:layout_weight="1.5"
+            android:text="Quo Vadis"
+            android:textColor="#0f2501"
+            android:textStyle="normal|bold|italic"
+            android:textSize="28sp"
+            />
+        <TextView
+            android:id="@+id/TVX3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|left|center_horizontal"
+            android:layout_weight="1.5"
+            android:text="Domine"
+            android:textColor="@android:color/holo_red_dark"
+            android:textStyle="normal|bold|italic"
+            android:textSize="25sp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6"
+        android:weightSum="2"
+        android:id="@+id/login"
+        android:visibility="invisible">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.4">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="2">
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/Cortina1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    style="1"
+                    android:layout_weight="1">
+
+                    <EditText
+                        android:id="@+id/ETX1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#163ee2"
+                        android:ems="10"
+                        android:textSize="20sp"
+                        android:hint="Socio"
+                        android:textColorHint="#d06c7083"
+                        android:singleLine="true" />
+                </android.support.design.widget.TextInputLayout>
+
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/Cortina2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    style="1"
+                    android:layout_weight="1">
+
+                    <EditText
+                        android:id="@+id/ETX2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#163ee2"
+                        android:ems="10"
+                        android:textSize="20sp"
+                        android:hint="Contraseña"
+                        android:textColorHint="#d06c7083"
+                        android:singleLine="true" />
+                </android.support.design.widget.TextInputLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/BTNX1"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.6"
+            android:text="OK"
+            android:textSize="20dp"
+            android:textStyle="normal|bold|italic"
+            android:background="@drawable/redondeadoazuloscuro"
+            android:textColor="@color/lagoclaro"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:visibility="visible"
+            android:layout_margin="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:layout_gravity="center_vertical|bottom"
+            android:src="@drawable/carlo"
+            android:adjustViewBounds="true"/>
+    </LinearLayout>
+</LinearLayout>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/IV222"
+        android:src="@drawable/vadis"
+        android:layout_centerInParent="true"
+        android:visibility="invisible"/>
+
+</RelativeLayout>

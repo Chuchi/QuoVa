@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string-array name="TipoMapa">
+        <item>Satellite</item>
+        <item>Callejero</item>
+        <item>Hibrido</item>
+        <item>Terrestre</item>
+    </string-array>
+    <string-array name="codigo">
+        <item>a</item>
+        <item>b</item>
+        <item>c</item>
+        <item>d</item>
+    </string-array>
+</resources>
