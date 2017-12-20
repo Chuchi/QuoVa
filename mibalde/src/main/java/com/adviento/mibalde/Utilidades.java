@@ -19,7 +19,7 @@ public class Utilidades  {
 
     public Utilidades(){};
 
-    private String LectorRespuestasSTRING(HttpURLConnection conexion) {
+    public static String LectorRespuestasSTRING(HttpURLConnection conexion) {
         String result = null;
         StringBuffer sb = new StringBuffer();
         InputStream is = null;
@@ -48,28 +48,52 @@ public class Utilidades  {
         return result;
     }
 
-    public  ArrayList<Punto> LectorJsonArrayDePuntos(HttpURLConnection conexion) throws IOException {
+    //Saca todos los puntos de un Array Json ,,, lo empaqueta todo en un Listado de PUNTOS
+
+    public static ArrayList<Punto> LectorJsonArrayDePuntos(HttpURLConnection conexion) throws IOException {
 
             JsonReader reader = new JsonReader(new InputStreamReader(conexion.getInputStream()));
         try {
-             return SacaPuntosDeArray(reader);
+                    ArrayList<Punto> listado = new ArrayList<Punto>();
+
+                    reader.beginArray();
+                    while (reader.hasNext()) {
+                        Punto karol=new Punto();
+                        reader.beginObject();
+                        while (reader.hasNext()) {
+                            String name = reader.nextName();
+                            switch (name) {
+                                case "Id":
+                                    karol.Id = reader.nextString();
+                                    break;
+                                case "TempoJson":
+                                    karol.Tempo = Long.getLong(reader.nextString());
+                                    break;
+                                case "Latitud":
+                                    karol.Latitud = (reader.nextDouble());
+                                    break;
+                                case "Longuitud":
+                                    karol.Longuitud = (reader.nextDouble());
+                                    break;
+                                default:
+                                    reader.skipValue();
+                                    break;
+                            }
+                        }
+                        reader.endObject();
+
+                        listado.add(karol);
+                    }
+                    reader.endArray();
+            return listado;
                  } finally {
                     reader.close();
                   }
     }
 
-    public ArrayList<Punto> SacaPuntosDeArray(JsonReader reader) throws IOException {
-        ArrayList<Punto> listado = new ArrayList<Punto>();
 
-        reader.beginArray();
-        while (reader.hasNext()) {
-            listado.add(LeePunto(reader));
-        }
-        reader.endArray();
-        return listado;
-    }
 
-    public Punto LeePunto(JsonReader reader) throws IOException {
+    public Punto LeePuntoDeObjetoJson(JsonReader reader) throws IOException {
 
         Punto karol=new Punto();
         reader.beginObject();
@@ -97,15 +121,15 @@ public class Utilidades  {
         return karol;
     }
 
-    public List<Double> readDoublesArray(JsonReader reader) throws IOException {
-        List<Double> doubles = new ArrayList<Double>();
+    public List<String> LeeStringDeUnArray(JsonReader reader) throws IOException {
+        List<String> Cadenas = new ArrayList<String>();
 
         reader.beginArray();
         while (reader.hasNext()) {
-            doubles.add(reader.nextDouble());
+            Cadenas.add(reader.nextString());
         }
         reader.endArray();
-        return doubles;
+        return Cadenas;
     }
     }
 
